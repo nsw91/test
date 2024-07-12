@@ -1,0 +1,10 @@
+server:
+  port: 8081
+
+spring:
+  ldap:
+   urls: ldap://192.168.7.30:389 #openldap????
+   username: cn=Manager,dc=maxcrc,dc=com #???
+   password: secret #??
+   base: dc=maxcrc,dc=com #?dn
+
